@@ -1,6 +1,8 @@
 // Italian IRPEF brackets — 2026 (art. 11 TUIR as amended by Legge di Bilancio 2026, L. 30/12/2025 n. 199:
-// second bracket cut from 35% to 33%). The 33% rate is capped: taxpayers with total income above
-// 200,000 EUR do not benefit from it. Verify against the latest Legge di Bilancio before production use.
+// second bracket cut from 35% to 33%). For total income above 200,000 EUR the benefit is neutralised
+// not by a different rate but by art. 16-ter co. 5-bis TUIR, which cuts 19%-deductible expenses by 440 EUR
+// (medical expenses, political donations and catastrophe premiums excluded) — outside this module's scope,
+// which models no detrazioni at all. Verify against the latest Legge di Bilancio before production use.
 // Brackets are simplified: no fringe benefits, no detrazioni for family members, no addizionali regionali.
 
 export const irpefBrackets2026 = [
