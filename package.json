@@ -1,0 +1,38 @@
+{
+  "name": "italian-financial-calculators",
+  "version": "0.1.0",
+  "description": "Tiny, dependency-free JS library for Italian mortgage, loan, and IRPEF calculations. Implements Bersani-bis (L. 40/2007) early-repayment rules and Italian piano francese amortization.",
+  "type": "module",
+  "exports": {
+    "./mortgage": "./src/mortgage.js",
+    "./loan": "./src/loan.js",
+    "./irpef": "./src/irpef.js"
+  },
+  "keywords": [
+    "italian",
+    "italy",
+    "finance",
+    "mortgage",
+    "mutuo",
+    "irpef",
+    "amortization",
+    "piano-francese",
+    "prestito",
+    "calculator"
+  ],
+  "homepage": "https://calcolatorigratis.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raffaele86/italian-financial-calculators"
+  },
+  "bugs": {
+    "url": "https://github.com/Raffaele86/italian-financial-calculators/issues"
+  },
+  "author": "Raffaele Nocera <raffanoc@gmail.com> (https://calcolatorigratis.com)",
+  "license": "MIT",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
